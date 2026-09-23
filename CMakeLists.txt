@@ -12,7 +12,6 @@ find_package(SDL3 REQUIRED CONFIG)
 
 add_executable(software_renderer
     src/main.cpp
-    src/Framebuffer.cpp
 )
 
 target_link_libraries(software_renderer
